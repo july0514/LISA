@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lisa - BLACKPINK</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lisa - BLACKPINK</h1>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#canciones">Canciones</a></li>
+                    <li><a href="#exitos">Éxitos</a></li>
+                    <li><a href="#premios">Premios</a></li>
+                    <li><a href="#colaboraciones">Colaboraciones</a></li>
+                    <li><a href="#comentarios">Comentarios</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-icons">
+                <a href="#" target="_blank">📘</a>
+                <a href="#" target="_blank">🐦</a>
+                <a href="#" target="_blank">📸</a>
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+
+    <section id="biografia">
+        <div class="container">
+            <h2>Biografía</h2>
+            <p>Nombre completo: Lalisa Manoban.</p>
+            <p>• Fecha de nacimiento: 27 de marzo de 1997.</p>
+            <p>• Lugar de nacimiento: Bangkok, Tailandia.</p>
+            <p>• Nacionalidad: Tailandesa.</p>
+            <p>Desde muy joven, Lisa mostró un gran interés por la música y el baile. A los 14 años, decidió dejar su hogar en Tailandia y mudarse a Corea del Sur, después de audicionar para YG Entertainment en 2010, donde fue seleccionada entre más de 4,000 aspirantes. Pasó cinco años en entrenamiento, perfeccionando sus habilidades en canto, baile y rap.</p>
+            <p>Lisa debutó como parte de BLACKPINK en agosto de 2016, y rápidamente el grupo se convirtió en uno de los más populares a nivel mundial. Su carisma, talento y estilo único la ayudaron a destacar dentro del grupo, siendo aclamada como una de las principales bailarinas del K-pop.</p>
+        </div>
+    </section>
+
+
+    <!-- Slider de imágenes -->
+    <section id="slider">
+        <div class="slider-container">
+            <div class="slider-images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHIlsniyjz88NtR08F-JvEyVxsTtwYicQuwg&s" alt="Imagen 1">
+                <img src="https://i.scdn.co/image/ab6761610000e5eb426faee7010fa829bb527cfb" alt="Imagen 2">
+                <img src="https://media.baoquangninh.vn/upload/image/202409/medium/2263484_3481ae1fa5e100fa30ec75e6a2c5feca.jpeg"Imagen 3">
+                <img src="https://www.nme.com/wp-content/uploads/2024/09/lisa-blackpink-victorias-secret-200924.jpg" alt="Imagen 4">
+                <img src="https://www.billboard.com/wp-content/uploads/2024/04/Lalisa-Manobal-press-credit-Mikey-Asanin-2024-billboard-1548.jpg?w=942&h=623&crop=1" alt="Imagen 5">
+                <img src="https://cdn.vietnam.vn/wp-content/uploads/2024/07/Lisa-Blackpink-co-hoat-dong-dang-chu-y-trong-luc.jpg" alt="Imagen 6">
+                <img src="https://images.hindustantimes.com/img/2024/08/12/550x309/lisa_new_pic_1723497770337_1723497869055.jpg" alt="Imagen 7">
+                <img src="https://es.rollingstone.com/wp-content/uploads/2024/08/LISA-min.jpg" alt="Imagen 8">
+            </div>
+            <div class="slider-controls">
+                <button id="prev-slide">⏪</button>
+                <button id="next-slide">⏩</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="canciones">
+        <div class="container">
+            <h2>Canciones</h2>
+            <ul>
+                <li>"LALISA" - Sencillo debut en solitario (2021)</li>
+                <li>"MONEY" - Canción de su proyecto en solitario (2021)</li>
+                <li>"Rockstar" - debut en como solista (2024)</li>
+                <li>"New woman" - colaboración con Rosalía (2024)</li>
+                <li>"Moonlit floor" - canción en solitario (2024)</li>
+            </ul>
+
+              <!-- Reproductor de Música -->
+              <div class="player-container">
+                <div class="album-art">
+                    <img src="https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8402ce1519bc7a27240fd6cb95" alt="Album Art">
+                </div>
+
+                <div class="song-info">
+                    <h3 id="song-title">LALISA</h3>
+                    <p id="artist-name">Lisa</p>
+                </div>
+
+                <div class="controls">
+                    <button id="prev" class="control-button">⏪</button>
+                    <button id="play-pause" class="control-button">▶️</button>
+                    <button id="next" class="control-button">⏩</button>
+                </div>
+
+                <input type="range" id="progress-bar" class="progress-bar" value="0" max="100" step="1">
+
+                <div class="volume-control">
+                    <label for="volume">Volumen</label>
+                    <input type="range" id="volume" min="0" max="100" value="50">
+                </div>
+            </div>
+
+            <audio id="audio" src="LISA - MOONLIT FLOOR (Official Audio).mp3"></audio>
+        </div>
+    </section>
+
+
+    <section id="exitos">
+        <div class="container">
+            <h2>Éxitos</h2>
+            <ul>
+                <li>"LALISA" - recibió varias nominaciones y premios, incluyendo:
+                    • Mnet Asian Music Awards (MAMA): Ganó el premio a "Mejor Artista Nuevo" y "Mejor Canción."
+                    • Billboard Music Awards: Nominada en varias categorías por su impacto en las listas de popularidad.
+                    • Gaon Chart Music Awards: Reconocida por su éxito en las listas.
+                </li>
+                <li>"MONEY" - ha sido reconocida en diversas ceremonias de premiación...</li>
+                <li>"Rockstar" - Tiene su primer No. 1 en Billboard Global Excl. U.S.</li>
+                <li>"NEW WOMAN" - ha superado los 100 millones de streams en Spotify...</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="premios">
+        <div class="container">
+            <h2>Premios</h2>
+            <ul>
+                <li>Premio a Mejor Artista Solista en los "Mnet Asian Music Awards" (2021)</li>
+                <li>Premio a Mejor Video Musical en los "MTV Video Music Awards" (2021)</li>
+                <li>Premio como Mejor Bailarina del Año en los "Soompi Awards" (2020)</li>
+                <li>Premio a Mejor Artista Femenina en los "Asia Artist Awards" (2020)</li>
+                <li>Premios como parte de BLACKPINK, incluyendo Mejor Grupo de K-pop en los "Billboard Music Awards" (2020)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="colaboraciones">
+        <div class="container">
+            <h2>Colaboraciones</h2>
+            <ul>
+                <li>"SG" con DJ Snake, Ozuna y Megan Thee Stallion (2020)</li>
+                <li>"Shoong" con Taeyang (2023)</li>
+                <li>"New Woman" con Rosalía (2024)</li>
+            </ul>
+        </div>
+    </section>
+
+      <!-- Sección de comentarios -->
+      <section id="comentarios">
+        <div class="container">
+            <h2>Comentarios</h2>
+            <form id="formComentario" action="#" method="POST">
+                <textarea id="comentario" name="comentario" placeholder="Escribe tu comentario..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <h3>Comentarios Recientes:</h3>
+            <div id="comentarios-lista">
+                <!-- Aquí se mostrarán los comentarios -->
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lisa - BLACKPINK Fan Page. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
